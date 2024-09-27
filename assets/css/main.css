@@ -162,6 +162,14 @@ a {
 		border-bottom-color: transparent;
 	}
 
+	/* .new-tab-icon::after {
+		content: "\f08e"; 
+		font-family: "FontAwesome";
+		display: inline-block;
+		margin-left: 0.5em;
+		font-size: 0.75em;
+	} */
+
 strong, b {
 	color: #ffffff;
 	font-weight: 600;
@@ -713,8 +721,10 @@ input[type="radio"] + label:before {
 
 ol {
 	list-style: decimal;
-	margin: 0 0 2rem 0;
-	padding-left: 1.25em;
+	margin: 0 0 0 0;
+	padding-left: 1.5em;
+	margin-top   : -1.5em;
+	margin-bottom: 0.5em;
 }
 
 	ol li {
@@ -723,12 +733,14 @@ ol {
 
 ul {
 	list-style: disc;
-	margin: 0 0 2rem 0;
-	padding-left: 1em;
+	margin: 0 0 0 0;
+	padding-left: 1.5em;
+	margin-top   : -1.5em;
+	margin-bottom: 0.5em;
 }
 
 	ul li {
-		padding-left: 0.5em;
+		padding-left: 0.0em;
 	}
 
 	ul.alt {
